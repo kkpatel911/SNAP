@@ -1,4 +1,4 @@
-"""Download the reviewed Walmart listing photos into the static website."""
+"""Download the reviewed product listing photos into the static website."""
 import concurrent.futures
 import json
 from pathlib import Path
@@ -9,6 +9,10 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def download(entry):
     product_id, source = entry
+    if source.get('source_type') == 'user-supplied':
+        if not (ROOT / source['local']).is_file():
+            raise FileNotFoundError(source['local'])
+        return f'{product_id}: kept supplied photo'
     request = urllib.request.Request(source['image'], headers={'User-Agent': 'Mozilla/5.0'})
     with urllib.request.urlopen(request, timeout=30) as response:
         image = response.read()

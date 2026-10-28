@@ -27,13 +27,6 @@
     "verified": "2026-10-28",
     "local": "assets/products/04.jpg"
   },
-  "5": {
-    "image": "https://i5.walmartimages.com/seo/Great-Value-Whole-Vitamin-D-Milk-Gallon-Plastic-Jug-128-Fl-Oz_6a7b09b4-f51d-4bea-a01c-85767f1b481a.86876244397d83ce6cdedb030abe6e4a.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
-    "product": "Refrigerated whole milk",
-    "product_url": "https://www.walmart.com/ip/10450114",
-    "verified": "2026-10-28",
-    "local": "assets/products/05.jpg"
-  },
   "6": {
     "image": "https://i5.walmartimages.com/seo/Nestle-Media-Crema-Neutral-Flavor-Heavy-Table-Dairy-Cream-7-6-fl-oz-Can_527b09d3-ea5e-40b3-8035-f33b7bf7d368.483997c9f16f01b4c463376f8a0592e7.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
     "product": "Nestlé Media Crema Table Cream, 7.6 oz",
@@ -125,27 +118,6 @@
     "verified": "2026-10-28",
     "local": "assets/products/18.jpg"
   },
-  "19": {
-    "image": "https://i5.walmartimages.com/seo/Great-Value-Lentils-1-lb_dc2d5fdc-bcb5-4a08-a5ce-fbeecb0cd48e.b273a801313ed9f3ad9e5c5a5db05490.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
-    "product": "Dry lentils",
-    "product_url": "https://www.walmart.com/ip/545884744",
-    "verified": "2026-10-28",
-    "local": "assets/products/19.jpg"
-  },
-  "20": {
-    "image": "https://i5.walmartimages.com/seo/Great-Value-Yellow-Split-Peas-1lb_78caf87d-420b-4077-a421-990c9bae7699.31187d5835c71778385517c43f324f0d.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
-    "product": "Dry split peas",
-    "product_url": "https://www.walmart.com/ip/16303500508",
-    "verified": "2026-10-28",
-    "local": "assets/products/20.jpg"
-  },
-  "21": {
-    "image": "https://i5.walmartimages.com/seo/Great-Value-Large-White-Eggs-12-Count_b6760ce4-ef2b-4ee7-9c54-1e573897ad73.0e934a9843adc83711b5c933c7777f52.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
-    "product": "Shell eggs",
-    "product_url": "https://www.walmart.com/ip/145051970",
-    "verified": "2026-10-28",
-    "local": "assets/products/21.jpg"
-  },
   "22": {
     "image": "https://i5.walmartimages.com/seo/Great-Value-Canned-Whole-Green-Beans-Gluten-Free-14-5-oz_e8cfd86c-bba5-4481-a8e2-4414d89b19fc.8adb9905a92dd3de28ccba6789cb0eec.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
     "product": "Canned green beans",
@@ -194,5 +166,38 @@
     "product_url": "https://www.walmart.com/ip/44390948",
     "verified": "2026-10-28",
     "local": "assets/products/31.jpg"
+  },
+  "32": {
+    "image": null,
+    "source_type": "user-supplied",
+    "product": "Mayfield Whole Milk, 1 pt",
+    "product_url": "https://www.walmart.com/search?q=Mayfield%20whole%20milk%201%20pint",
+    "manufacturer_url": "https://www.mayfielddairy.com/products/milk-and-cream/whole-milk-plastic-pint/",
+    "verified": "2026-10-28",
+    "local": "assets/products/32.png"
+  },
+  "33": {
+    "image": "https://cdn.prod.website-files.com/627abd08e2c48f328cb9e207/62cc6871947a97536498fe9b_GAD_TurkeyCheeseSand_Packaged.avif",
+    "source_type": "manufacturer",
+    "local": "assets/products/33.png",
+    "product": "Turkey & Cheddar Sandwich — Great American Deli",
+    "product_url": "https://www.greatamericandeli.com/products/turkey-cheese",
+    "verified": "2026-10-28"
+  },
+  "34": {
+    "image": "https://cdn.prod.website-files.com/627abd08e2c48f328cb9e207/62a740378583fc951b326351_GAD_HamCheeseSand_Packaged.avif",
+    "source_type": "manufacturer",
+    "local": "assets/products/34.png",
+    "product": "Ham & Cheese Sandwich — Great American Deli",
+    "product_url": "https://www.greatamericandeli.com/products/ham-cheese",
+    "verified": "2026-10-28"
+  },
+  "35": {
+    "image": "https://cdn.prod.website-files.com/627abd08e2c48f328cb9e207/62a7425b9242752212b5bed8_GAD_ChickenSaladSandwich_Packaged.avif",
+    "source_type": "manufacturer",
+    "local": "assets/products/35.png",
+    "product": "Chicken Salad Sandwich — Great American Deli",
+    "product_url": "https://www.greatamericandeli.com/products/chicken-salad",
+    "verified": "2026-10-28"
   }
 }

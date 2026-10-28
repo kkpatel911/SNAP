@@ -12,7 +12,7 @@ USDA’s [sample pathways](https://www.fna.usda.gov/snap/retailer/stocking-stand
 | Dairy | Powdered dry milk | Dried or powdered milk | 3 retail boxes (3 pouches per box) | Count each complete retail box as one unit when sold boxed; do not count its inner pouches separately. |
 | Dairy | Silk original shelf-stable soy milk | Plant-based dairy alternative — soy milk | 3 cartons | Shelf-stable soy milk is a dairy alternative; it does not supply a perishable variety while unopened. |
 | Dairy | Kraft Grated Parmesan Cheese | Shredded cheese (grated Parmesan) | 3 shakers | Grated Parmesan is distinct from non-shredded cheese. Shelf-stable unopened; follow the package storage label. |
-| Dairy | Refrigerated whole milk | Plain perishable liquid milk | 3 gallon jugs | Fits the planned product type; check actual package and condition. |
+| Dairy | Mayfield Whole Milk, 1 pt | Plain perishable liquid milk | 3 sealed pint bottles | Milk and vitamin D3 per manufacturer; keep refrigerated. |
 | Dairy | Nestlé Media Crema Table Cream, 7.6 fl oz | Cream | 3 cans | Light cream is the first ingredient in the manufacturer listing. Shelf-stable unopened. |
 | Dairy | Great Value American Cheese Singles, 16 oz (24 slices) | Cheese (not shredded) | 3 sealed 24-slice packages | Exact SKU ingredient label still needs confirmation. Verify the dairy-based sliced cheese product on the package; do not substitute cheese dip or spread. Count packages, not slices. |
 | Grains | Whole-wheat spaghetti | Whole grain pasta/noodles | 3 boxes | Use whole-wheat pasta; ordinary enriched pasta belongs to the separate non-whole-grain variety. |
@@ -26,9 +26,6 @@ USDA’s [sample pathways](https://www.fna.usda.gov/snap/retailer/stocking-stand
 | Protein | Canned chicken | Shelf-stable meat — chicken | 3 cans | Chicken must be the main qualifying ingredient. Keep the unopened shelf-stable can. |
 | Protein | Canned beef stew | Shelf-stable meat — beef | 3 cans | Use canned DINTY MOORE beef stew: manufacturer lists beef after beef stock. Do not substitute the microwave tray formula, which lists potatoes ahead of beef. |
 | Protein | Peanut butter | Nuts and seeds | 3 jars | Peanut butter uses the nuts-and-seeds variety. Another nut butter does not add a new variety. |
-| Protein | Dry lentils | Dry lentils | 3 bags | Fits the planned product type; check actual package and condition. |
-| Protein | Dry split peas | Dry peas | 3 bags | Fits the planned product type; check actual package and condition. |
-| Protein | Shell eggs | Shell eggs (no other ingredients) | 3 retail cartons (12 eggs per carton) | Count retail cartons, not individual eggs removed from a carton. Keep refrigerated. |
 | Produce | Canned green beans | Green beans | 3 cans | Fits the planned product type; check actual package and condition. |
 | Produce | Canned tomato paste | Tomatoes | 3 cans | Fits the planned product type; check actual package and condition. |
 | Produce | Dole pineapple slices, 8 oz | Pineapple | 3 cans | Fits the planned product type; check actual package and condition. |
@@ -47,4 +44,20 @@ USDA’s [sample pathways](https://www.fna.usda.gov/snap/retailer/stocking-stand
 
 Seven planned entries per category leave no spare variety if a SKU fails the label check or sells out. Keep a purchasing buffer and check stock daily. Brand, size, flavor, or fresh/canned form alone does not automatically create another variety. For bananas, use three individual fruit only when sold individually; otherwise count the normal sale bunch.
 
-Changes made locally: corrected grain classifications, clarified package-based minimums, preserved milk/eggs/bananas as the perishable plan, added product-specific cautions, and marked the unresolved cheese label. No product was removed or published.
+Changes made locally: corrected grain classifications, clarified package-based minimums, preserved milk/sandwiches/bananas as the perishable plan, added product-specific cautions, and marked the unresolved cheese label. No product was removed or published.
+
+Mayfield substitution: [manufacturer](https://www.mayfielddairy.com/products/milk-and-cream/whole-milk-plastic-pint/) confirms milk and vitamin D3. The pint replaces the gallon in the same variety. Its new inventory ID starts at zero, so former gallon counts do not become pint counts.
+
+## Sandwich substitution — October 28, 2026
+
+Replaced lentils, split peas and eggs locally. New inventory IDs prevent their counts and expiry dates from carrying over to sandwiches. Seven Protein varieties remain; canned chicken and refrigerated multi-ingredient chicken are distinct. Each sandwich requires three sealed packages.
+
+| Product | Protein variety | Ingredient evidence |
+|---|---|---|
+| [Turkey & Cheddar Sandwich — Great American Deli](https://www.greatamericandeli.com/products/turkey-cheese) | Perishable multi-ingredient meat — turkey | Smoked turkey breast is listed before bread and cheese. |
+| [Ham & Cheese Sandwich — Great American Deli](https://www.greatamericandeli.com/products/ham-cheese) | Perishable multi-ingredient meat — pork | Smoked ham is listed before bread and cheese. |
+| [Chicken Salad Sandwich — Great American Deli](https://www.greatamericandeli.com/products/chicken-salad) | Perishable multi-ingredient meat — chicken | Chicken salad is listed first; its first component is white-meat chicken, followed by dressing and other ingredients. |
+
+These are manufacturer-supported classifications, inferred from the ingredient ordering on the product pages and package photographs. Actual labels must match. Factory-made sandwiches sold cold for home consumption are distinct from foods assembled on the retailer premises or intended for onsite consumption, which the rule excludes. The sandwiches are counted only in Protein. No claim of official USDA approval is made.
+
+Rule reference: [2026 final rule, pages 25090–25091](https://www.govinfo.gov/content/pkg/FR-2026-05-08/pdf/2026-09137.pdf). No public-site push or deployment was performed for these substitutions.
