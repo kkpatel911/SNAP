@@ -1,0 +1,198 @@
+{
+  "1": {
+    "image": "https://i5.walmartimages.com/seo/Great-Value-Evaporated-Milk-12-fl-oz-12-Servings_5e6f4682-3712-46a0-92a6-0dfe7b58f377.af5744b08f4f48ac28841791dc4072f3.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "Evaporated milk",
+    "product_url": "https://www.walmart.com/ip/10534163",
+    "verified": "2026-10-28",
+    "local": "assets/products/01.jpg"
+  },
+  "2": {
+    "image": "https://i5.walmartimages.com/seo/Great-Value-Instant-Nonfat-Dry-Milk-3-2-oz-Pouches-3-Count-Makes-3-Quarts-Total-12-Servings-per-Container_7112a02c-a445-467e-aa71-1abbd7202834.7c93c4dba1b277820753245dd9e4276a.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "Powdered dry milk",
+    "product_url": "https://www.walmart.com/ip/55081618",
+    "verified": "2026-10-28",
+    "local": "assets/products/02.jpg"
+  },
+  "3": {
+    "image": "https://i5.walmartimages.com/seo/Silk-Shelf-Stable-Dairy-Free-Lactose-Free-Original-Soy-Milk-32-fl-oz-Quart_7d71dbd6-4c1a-4cc3-a6cf-d9b7eaedca5e.ff1a0e7bb496687c197e2240219e3af1.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "Silk original shelf-stable soy milk",
+    "product_url": "https://www.walmart.com/ip/10535900",
+    "verified": "2026-10-28",
+    "local": "assets/products/03.jpg"
+  },
+  "4": {
+    "image": "https://i5.walmartimages.com/seo/Kraft-Natural-Grated-Parmesan-Cheese-Shaker-8-oz-Bottle_b9066efb-aedb-41cb-96f9-25425b2b5092.03a5637f79524a40e65f4b92b32c0b06.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "Kraft Grated Parmesan Cheese",
+    "product_url": "https://www.walmart.com/ip/15716473",
+    "verified": "2026-10-28",
+    "local": "assets/products/04.jpg"
+  },
+  "5": {
+    "image": "https://i5.walmartimages.com/seo/Great-Value-Whole-Vitamin-D-Milk-Gallon-Plastic-Jug-128-Fl-Oz_6a7b09b4-f51d-4bea-a01c-85767f1b481a.86876244397d83ce6cdedb030abe6e4a.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "Refrigerated whole milk",
+    "product_url": "https://www.walmart.com/ip/10450114",
+    "verified": "2026-10-28",
+    "local": "assets/products/05.jpg"
+  },
+  "6": {
+    "image": "https://i5.walmartimages.com/seo/Nestle-Media-Crema-Neutral-Flavor-Heavy-Table-Dairy-Cream-7-6-fl-oz-Can_527b09d3-ea5e-40b3-8035-f33b7bf7d368.483997c9f16f01b4c463376f8a0592e7.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "Nestlé Media Crema Table Cream, 7.6 oz",
+    "product_url": "https://www.walmart.com/ip/10804326",
+    "verified": "2026-10-28",
+    "local": "assets/products/06.jpg"
+  },
+  "7": {
+    "image": "https://i5.walmartimages.com/seo/Great-Value-Individually-Plastic-Wrapped-Singles-American-Cheese-Product-16-oz-24-Slices_2c5a6207-c4db-46ff-a7b8-e6ce421a2b43.5d8f1343e92c0c49e013228f4a344dea.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "Great Value American Cheese Singles, 16 oz (24 slices)",
+    "product_url": "https://www.walmart.com/ip/10452423",
+    "verified": "2026-10-28",
+    "local": "assets/products/07.jpg"
+  },
+  "8": {
+    "image": "https://i5.walmartimages.com/seo/Great-Value-Whole-Wheat-Spaghetti-16-oz_73b824d5-29c1-4823-8cef-248f711a28ec.4f5ba86d82472154b67e573d6bd792a8.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "Whole-wheat spaghetti",
+    "product_url": "https://www.walmart.com/ip/45653171",
+    "verified": "2026-10-28",
+    "local": "assets/products/08.jpg"
+  },
+  "9": {
+    "image": "https://i5.walmartimages.com/seo/Great-Value-Spaghetti-16oz_9d73f340-4055-4b1d-89f4-64737450f334.491ce515e9904db0e49eeb751e856691.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "Regular spaghetti",
+    "product_url": "https://www.walmart.com/ip/10534115",
+    "verified": "2026-10-28",
+    "local": "assets/products/09.jpg"
+  },
+  "10": {
+    "image": "https://i5.walmartimages.com/seo/Great-Value-Toasted-O-s-Breakfast-Cereal-18-oz_32833ade-dedd-48a1-bbc9-4a32bfaba557.46fa4a7a3e8bb77ec07309635ddb4b3a.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "Breakfast cereal",
+    "product_url": "https://www.walmart.com/ip/17238466448",
+    "verified": "2026-10-28",
+    "local": "assets/products/10.jpg"
+  },
+  "11": {
+    "image": "https://i5.walmartimages.com/seo/Great-Value-Complete-Pancake-Waffle-Mix-Extra-Fluffy-Original-32-oz_aa4d8d1c-d456-4a8a-931e-8ada730d23cc.12a6dd1e51047e83707e3f85fc7033a5.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "Pancake mix",
+    "product_url": "https://www.walmart.com/ip/10314919",
+    "verified": "2026-10-28",
+    "local": "assets/products/11.jpg"
+  },
+  "12": {
+    "image": "https://i5.walmartimages.com/seo/Great-Value-All-Purpose-Enriched-Flour-5LB-Bag_923d0601-6244-48e0-88fd-1d8202b07415.22f35763ff12f4f0f3f47ae48963864c.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "Great Value All-Purpose Flour, 5 lb",
+    "product_url": "https://www.walmart.com/ip/10403017",
+    "verified": "2026-10-28",
+    "local": "assets/products/12.jpg"
+  },
+  "13": {
+    "image": "https://i5.walmartimages.com/seo/Mahatma-Gluten-Free-Enriched-Extra-Long-Grain-White-Rice-2-lb-Bag_e2cdab42-814a-4fad-8a81-081fd6e1578c.645ce23c17c206c9870c53b987c9dd93.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "Mahatma Extra Long Grain White Rice, 2 lb",
+    "product_url": "https://www.walmart.com/ip/14940615",
+    "verified": "2026-10-28",
+    "local": "assets/products/13.jpg"
+  },
+  "14": {
+    "image": "https://i5.walmartimages.com/seo/Great-Value-Enriched-Yellow-Corn-Meal-80-oz_a451ba07-a652-43a9-83a4-c46b6d8afd2d.0a36f995d0f71a131d9bb24ad4639f81.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "Cornmeal",
+    "product_url": "https://www.walmart.com/ip/13397999",
+    "verified": "2026-10-28",
+    "local": "assets/products/14.jpg"
+  },
+  "15": {
+    "image": "https://i5.walmartimages.com/seo/StarKist-Chunk-Light-Tuna-in-Water-5-oz-Can_916b3e8e-4fa2-42d2-b668-5392c087bbc7.41647c1608d342d57e802b5d2b0dfea1.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "StarKist chunk light tuna",
+    "product_url": "https://www.walmart.com/ip/13398002",
+    "verified": "2026-10-28",
+    "local": "assets/products/15.jpg"
+  },
+  "16": {
+    "image": "https://i5.walmartimages.com/seo/Great-Value-Chunk-Chicken-in-Water-Chunks-12-5-Ounce-Can_208faf34-5632-4f11-934c-1ee23fce7878.22abd2b33291047a81980c7ed06f3083.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "Canned chicken",
+    "product_url": "https://www.walmart.com/ip/10315929",
+    "verified": "2026-10-28",
+    "local": "assets/products/16.jpg"
+  },
+  "17": {
+    "image": "https://i5.walmartimages.com/seo/Dinty-Moore-Beef-Stew-15-oz-Package-May-Vary_3bf02d87-6276-46e8-8dbe-e366ff4ceba9.59647de872dc91fab316ee6c92ddbc69.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "Canned beef stew",
+    "product_url": "https://www.walmart.com/ip/16009254227",
+    "verified": "2026-10-28",
+    "local": "assets/products/17.jpg"
+  },
+  "18": {
+    "image": "https://i5.walmartimages.com/seo/Great-Value-Creamy-Peanut-Butter-18-oz-Jar_b1de5b13-ea36-4195-a48f-df80e9ad32d3.866d0f8269899d9c1ec4bd0a6eb0947c.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "Peanut butter",
+    "product_url": "https://www.walmart.com/ip/10315475",
+    "verified": "2026-10-28",
+    "local": "assets/products/18.jpg"
+  },
+  "19": {
+    "image": "https://i5.walmartimages.com/seo/Great-Value-Lentils-1-lb_dc2d5fdc-bcb5-4a08-a5ce-fbeecb0cd48e.b273a801313ed9f3ad9e5c5a5db05490.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "Dry lentils",
+    "product_url": "https://www.walmart.com/ip/545884744",
+    "verified": "2026-10-28",
+    "local": "assets/products/19.jpg"
+  },
+  "20": {
+    "image": "https://i5.walmartimages.com/seo/Great-Value-Yellow-Split-Peas-1lb_78caf87d-420b-4077-a421-990c9bae7699.31187d5835c71778385517c43f324f0d.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "Dry split peas",
+    "product_url": "https://www.walmart.com/ip/16303500508",
+    "verified": "2026-10-28",
+    "local": "assets/products/20.jpg"
+  },
+  "21": {
+    "image": "https://i5.walmartimages.com/seo/Great-Value-Large-White-Eggs-12-Count_b6760ce4-ef2b-4ee7-9c54-1e573897ad73.0e934a9843adc83711b5c933c7777f52.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "Shell eggs",
+    "product_url": "https://www.walmart.com/ip/145051970",
+    "verified": "2026-10-28",
+    "local": "assets/products/21.jpg"
+  },
+  "22": {
+    "image": "https://i5.walmartimages.com/seo/Great-Value-Canned-Whole-Green-Beans-Gluten-Free-14-5-oz_e8cfd86c-bba5-4481-a8e2-4414d89b19fc.8adb9905a92dd3de28ccba6789cb0eec.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "Canned green beans",
+    "product_url": "https://www.walmart.com/ip/10315429",
+    "verified": "2026-10-28",
+    "local": "assets/products/22.jpg"
+  },
+  "23": {
+    "image": "https://i5.walmartimages.com/seo/Great-Value-Tomato-Paste-6-oz_6af82872-b2ee-445f-afd4-71a117a6da4e.811df3352f4139d299bbcc21b97292c4.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "Canned tomato paste",
+    "product_url": "https://www.walmart.com/ip/10415519",
+    "verified": "2026-10-28",
+    "local": "assets/products/23.jpg"
+  },
+  "24": {
+    "image": "https://i5.walmartimages.com/seo/Dole-Pineapple-Slices-in-100-Pineapple-Juice-All-Natural-Canned-Pineapple-8-Oz_3a353d91-6466-4c8c-a2aa-0a1abbd6e617.1d90e2eb0e19ab28fdd72994cb63cd7c.png?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "Dole pineapple slices, 8 oz",
+    "product_url": "https://www.walmart.com/ip/10304321",
+    "verified": "2026-10-28",
+    "local": "assets/products/24.png"
+  },
+  "25": {
+    "image": "https://i5.walmartimages.com/seo/Great-Value-Sliced-Black-Olives-2-25-oz-Major-Allergens-Not-Contained_acdc0e2d-4342-4969-8d24-3a974479140b.ea74866bb553c908df8c3e91ddbabeca.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "Canned black olives",
+    "product_url": "https://www.walmart.com/ip/10315447",
+    "verified": "2026-10-28",
+    "local": "assets/products/25.jpg"
+  },
+  "26": {
+    "image": "https://i5.walmartimages.com/seo/Great-Value-100-Concord-Grape-Juice-64-fl-oz_f329d09c-a400-4a52-9f6c-a16fce37d0d1.79b7a6c446505eba432b3cc7ee1b6452.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "Great Value 100% Concord grape juice",
+    "product_url": "https://www.walmart.com/ip/12927454291",
+    "verified": "2026-10-28",
+    "local": "assets/products/26.jpg"
+  },
+  "27": {
+    "image": "https://i5.walmartimages.com/seo/Great-Value-Dried-Apricots-6-oz_335f3d3c-37a1-48b2-8d81-8bf81cba6a0d.00009be02be03f6da89b6aa0b4f840dd.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "Dried apricots",
+    "product_url": "https://www.walmart.com/ip/10452488",
+    "verified": "2026-10-28",
+    "local": "assets/products/27.jpg"
+  },
+  "31": {
+    "image": "https://i5.walmartimages.com/seo/Fresh-Banana-Each_5939a6fa-a0d6-431c-88c6-b4f21608e4be.f7cd0cc487761d74c69b7731493c1581.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "Fresh bananas",
+    "product_url": "https://www.walmart.com/ip/44390948",
+    "verified": "2026-10-28",
+    "local": "assets/products/31.jpg"
+  }
+}
