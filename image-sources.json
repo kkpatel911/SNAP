@@ -83,33 +83,12 @@
     "verified": "2026-10-28",
     "local": "assets/products/15.jpg"
   },
-  "16": {
-    "image": "https://i5.walmartimages.com/seo/Great-Value-Chunk-Chicken-in-Water-Chunks-12-5-Ounce-Can_208faf34-5632-4f11-934c-1ee23fce7878.22abd2b33291047a81980c7ed06f3083.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
-    "product": "Canned chicken",
-    "product_url": "https://www.walmart.com/ip/10315929",
-    "verified": "2026-10-28",
-    "local": "assets/products/16.jpg"
-  },
   "17": {
     "image": "https://i5.walmartimages.com/seo/Dinty-Moore-Beef-Stew-15-oz-Package-May-Vary_3bf02d87-6276-46e8-8dbe-e366ff4ceba9.59647de872dc91fab316ee6c92ddbc69.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
     "product": "Canned beef stew",
     "product_url": "https://www.walmart.com/ip/16009254227",
     "verified": "2026-10-28",
     "local": "assets/products/17.jpg"
-  },
-  "22": {
-    "image": "https://i5.walmartimages.com/seo/Great-Value-Canned-Whole-Green-Beans-Gluten-Free-14-5-oz_e8cfd86c-bba5-4481-a8e2-4414d89b19fc.8adb9905a92dd3de28ccba6789cb0eec.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
-    "product": "Canned green beans",
-    "product_url": "https://www.walmart.com/ip/10315429",
-    "verified": "2026-10-28",
-    "local": "assets/products/22.jpg"
-  },
-  "23": {
-    "image": "https://i5.walmartimages.com/seo/Great-Value-Tomato-Paste-6-oz_6af82872-b2ee-445f-afd4-71a117a6da4e.811df3352f4139d299bbcc21b97292c4.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
-    "product": "Canned tomato paste",
-    "product_url": "https://www.walmart.com/ip/10415519",
-    "verified": "2026-10-28",
-    "local": "assets/products/23.jpg"
   },
   "24": {
     "image": "https://i5.walmartimages.com/seo/Dole-Pineapple-Slices-in-100-Pineapple-Juice-All-Natural-Canned-Pineapple-8-Oz_3a353d91-6466-4c8c-a2aa-0a1abbd6e617.1d90e2eb0e19ab28fdd72994cb63cd7c.png?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
@@ -124,13 +103,6 @@
     "product_url": "https://www.walmart.com/ip/10315447",
     "verified": "2026-10-28",
     "local": "assets/products/25.jpg"
-  },
-  "26": {
-    "image": "https://i5.walmartimages.com/seo/Great-Value-100-Concord-Grape-Juice-64-fl-oz_f329d09c-a400-4a52-9f6c-a16fce37d0d1.79b7a6c446505eba432b3cc7ee1b6452.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
-    "product": "Great Value 100% Concord grape juice",
-    "product_url": "https://www.walmart.com/ip/12927454291",
-    "verified": "2026-10-28",
-    "local": "assets/products/26.jpg"
   },
   "31": {
     "image": "https://i5.walmartimages.com/seo/Fresh-Banana-Each_5939a6fa-a0d6-431c-88c6-b4f21608e4be.f7cd0cc487761d74c69b7731493c1581.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
@@ -203,5 +175,37 @@
     "product_url": "https://www.walmart.com/ip/22734176",
     "verified": "2026-10-31",
     "local": "assets/products/39.jpg"
+  },
+  "40": {
+    "image": "https://i5.walmartimages.com/seo/Armour-Original-Vienna-Sausage-4-6-oz-Can_b2b731b7-2c69-4df7-adc1-5bb6c9edefce.bf195662b79419a5c0de34269bc3e14f.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "Armour Original Vienna Sausage",
+    "product_url": "https://www.walmart.com/ip/43830575",
+    "source_type": "retailer",
+    "verified": "2026-10-31",
+    "local": "assets/products/40.jpg"
+  },
+  "42": {
+    "image": "https://i5.walmartimages.com/seo/DEL-MONTE-Golden-Sweet-Whole-Kernel-Corn-No-Salt-Added-15-25-oz-Can_f9364f1c-7e3d-433a-b2e3-9ae1a7a2e79b.0709c757616b83fd13e0df7f7fe2e27f.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "product": "Del Monte No Salt Added Whole Kernel Corn",
+    "product_url": "https://www.walmart.com/ip/10295219",
+    "source_type": "retailer",
+    "verified": "2026-10-31",
+    "local": "assets/products/42.jpg"
+  },
+  "41": {
+    "image": "https://images.salsify.com/image/upload/s--OxQDwkQc--/e_trim/h_700%2Cw_700%2Cq_auto%2Cg_center%2Cfl_clip%2Cf_auto%2Cc_pad/azrabouvsgbxudiuk882.png",
+    "product": "Campbell’s Condensed Tomato Soup",
+    "product_url": "https://www.campbells.com/products/condensed/tomato-soup/",
+    "source_type": "manufacturer",
+    "verified": "2026-10-31",
+    "local": "assets/products/41.png"
+  },
+  "43": {
+    "image": "https://images.salsify.com/image/upload/s--ke0UGNtJ--/e_trim/h_700%2Cw_700%2Cq_auto%2Cg_center%2Cfl_clip%2Cf_auto%2Cc_pad/xcevjbvhjan2loftq5ex.png",
+    "product": "Campbell’s Condensed Cream of Mushroom Soup",
+    "product_url": "https://www.campbells.com/products/condensed/cream-of-mushroom-soup/",
+    "source_type": "manufacturer",
+    "verified": "2026-10-31",
+    "local": "assets/products/43.png"
   }
 }

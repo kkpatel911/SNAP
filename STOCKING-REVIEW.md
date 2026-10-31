@@ -25,17 +25,17 @@ USDA’s [sample pathways](https://www.fna.usda.gov/snap/retailer/stocking-stand
 | Grains | Mahatma Extra Long Grain White Rice, 2 lb | Raw grains — rice | 3 bags | Different rice colors or brands remain this same rice variety. |
 | Grains | Cornmeal | Flour — corn (cornmeal) | 3 bags | Cornmeal is the corn-flour variety; it is distinct from wheat flour. |
 | Protein | StarKist chunk light tuna | Shelf-stable meat — tuna | 3 cans | Tuna must be the main qualifying ingredient. Keep the unopened shelf-stable can. |
-| Protein | Canned chicken | Shelf-stable meat — chicken | 3 cans | Chicken must be the main qualifying ingredient. Keep the unopened shelf-stable can. |
+| Protein | Armour Original Vienna Sausage | Shelf-stable meat — chicken | 3 cans | Replaces canned chicken in the same shelf-stable chicken variety. Confirm mechanically separated chicken is the first qualifying ingredient on your can. Other flavors with the same main meat do not add varieties. |
 | Protein | Canned beef stew | Shelf-stable meat — beef | 3 cans | Use canned DINTY MOORE beef stew: manufacturer lists beef after beef stock. Do not substitute the microwave tray formula, which lists potatoes ahead of beef. |
 | Protein | Jif Creamy Peanut Butter, 16 oz | Nuts and seeds | 3 jars | Replaces Great Value peanut butter in the same nuts-and-seeds variety. |
 | Protein | Great American Deli Turkey & Cheddar Sandwich, product 121 | Perishable multi-ingredient meat — turkey | 3 sealed sandwich packages | Manufacturer lists smoked turkey before bread. Conditional on matching labels and cold sale for home consumption. |
 | Protein | Great American Deli Ham & Cheese Sandwich, product 101 | Perishable multi-ingredient meat — pork | 3 sealed sandwich packages | Manufacturer lists smoked ham before bread. Conditional on matching labels and cold sale for home consumption. |
 | Protein | Great American Deli Chicken Salad Sandwich, product 119 | Perishable multi-ingredient meat — chicken | 3 sealed sandwich packages | Chicken salad is the first component and chicken its first ingredient. Distinct from shelf-stable canned chicken. |
-| Produce | Canned green beans | Green beans | 3 cans | Fits the planned product type; check actual package and condition. |
-| Produce | Canned tomato paste | Tomatoes | 3 cans | Fits the planned product type; check actual package and condition. |
+| Produce | Del Monte No Salt Added Whole Kernel Corn | Corn | 3 cans | Replaces canned green beans with a corn variety in Vegetables & Fruits. Corn must be the main qualifying ingredient. Canned corn is shelf-stable unopened. |
+| Produce | Campbell’s Condensed Tomato Soup | Tomatoes | 3 cans | Replaces tomato paste in the same tomato variety. Manufacturer lists tomato puree first. Count each sealed retail can as one unit. |
 | Produce | Dole pineapple slices, 8 oz | Pineapple | 3 cans | Fits the planned product type; check actual package and condition. |
 | Produce | Canned black olives | Olives | 3 cans | Fits the planned product type; check actual package and condition. |
-| Produce | Great Value 100% Concord grape juice | Grapes (100% juice) | 3 bottles | Use 100% grape juice, not grape drink, cocktail, or punch. It counts as grapes, not a separate juice variety. |
+| Produce | Campbell’s Condensed Cream of Mushroom Soup | Mushrooms | 3 cans | Replaces grape juice with a mushroom variety in Vegetables & Fruits. Manufacturer lists water followed by mushrooms. This is not a dairy cream variety. Shelf-stable unopened. |
 | Produce | Great Value Instant Mashed Potatoes, 9 oz | Potatoes (dried instant) | 3 retail boxes | Replaces dried apricots. Potatoes must be the first qualifying ingredient; shelf-stable unopened. |
 | Produce | Fresh bananas | Bananas (fresh) | 3 individual bananas, sold individually | Keep at least 3 saleable individual bananas if sold each. If sold by the bunch, count bunches instead. Check ripeness daily. |
 
@@ -102,3 +102,11 @@ Rule reference: [2026 final rule, pages 25090–25091](https://www.govinfo.gov/c
 - Dried apricots → Great Value Instant Mashed Potatoes, 9 oz box (ID 39), in the potato produce variety.
 
 Fresh IDs keep previous products’ stored quantities and dates from carrying over. Enter actual shelf counts for the four replacements. All four remain shelf-stable, preserving the milk/sandwich/banana perishable plan and seven distinct varieties per category. Potato ingredients require the same actual-package check as other mixed foods. Product images and links were updated to match; the cereal uses an H-E-B listing.
+
+## Additional approved replacements and In Store markers — October 31, 2026
+
+Canned chicken → Armour Original Vienna Sausage (ID 40); tomato paste → Campbell’s Condensed Tomato Soup (ID 41); green beans → Del Monte No Salt Added Whole Kernel Corn (ID 42); grape juice → Campbell’s Condensed Cream of Mushroom Soup (ID 43). Ingredient-dependent classifications require matching actual labels. The main table above reflects the current selections; prior examples and calculator mappings describe the earlier plan.
+
+Eleven current checklist products identified in the shelf photos are marked **In Store**: penne, cereal cups, Jif, instant potatoes, tuna, pineapple, DINTY MOORE canned beef stew, Vienna sausages, tomato soup, corn and mushroom soup. The badge appears on screen, in both print formats and in CSV. It records product presence, not a verified quantity, freshness check or certification. New IDs prevent counts and dates from the four replaced products carrying over.
+
+The plan retains seven varieties per category and the milk/sandwich/banana perishable categories. Remaining sandwiches and canned olives were not replaced.

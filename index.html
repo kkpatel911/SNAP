@@ -14,6 +14,10 @@
   #printSheet th{background:#eee!important}
   #printSheet tr{break-inside:avoid}
   #printSheet .muted{font-size:9px;color:#555}
+  #printSheet .print-photo{display:block;width:70px;max-width:100%;height:76px;object-fit:contain;margin:auto;background:white}
+  #printSheet thead{display:table-header-group}
+  #printSheet.with-images .print-category + .print-category{break-before:page}
+  #printSheet.with-images td{vertical-align:middle}
   #printSheet .printfoot{margin-top:16px;font-size:10px}
   @page{size:letter portrait;margin:0.45in}
 }
@@ -86,7 +90,7 @@ header{background:linear-gradient(125deg,#102e35,#175046);box-shadow:0 8px 26px 
 .variety-label{background:transparent;color:#52636c;font-weight:400;padding:0;border-radius:0}
 .shelf,.perish{background:#edf1f4;color:#425461;border:1px solid #dce3e8}
 .product-details summary,.product-details a{color:#425461}
-</style></head><body><main><header><div class="top"><div><h1>SNAP Stocking & Shopping Checklist</h1><p>4 categories • 7 distinct varieties each • 3 units each • perishables in any 3 categories</p></div><div class="actions noprint"><button class="primary" onclick="printInventory()">🖨 Print inventory</button><button onclick="downloadCSV()">↓ Export CSV</button><button onclick="resetInventory()">Reset counts</button></div></div></header><div class="targets"><strong>NOVEMBER 4, 2026 — STOCKING PLAN</strong><div class="targetgrid"><div>① <b>4 food categories</b><small>Dairy · Grains · Protein · Fruits/Vegetables</small></div><div>② <b>7 different varieties EACH</b><small>28 varieties total</small></div><div>③ <b>3 units per variety</b><small>84 units minimum total</small></div><div>④ <b>Perishable in 3 categories</b><small>Only 1 perishable variety in each of those 3 categories</small></div></div><p><b>Our plan:</b> Dairy ✅ milk + refrigerated cheese · Protein ✅ refrigerated sandwiches · Fruits & Vegetables ✅ bananas · Grains: no perishable required.</p></div><div class="warning"><b>Action before November 4:</b> Confirm the American cheese ingredient label, or replace that slot with 3 sealed packages of plain block cheddar or mozzarella sticks. The other 27 planned slots fit the reviewed categories when labels and sale conditions match. Green rows show quantities only; manually check freshness, dates and refrigeration. See the <a href="STOCKING-REVIEW.md">full 28-product review</a>.</div><details class="review-summary"><summary>Stocking review · October 31, 2026 · 1 label check outstanding</summary><p>The 28-product plan maps to 7 distinct varieties per category. The American cheese SKU still needs its ingredient label checked. Counts below track entered inventory, not official eligibility.</p><p>Maintain 3 normal sale units per variety on every operating day. Milk, sandwiches and bananas supply the three planned perishable categories when stocked and saleable. Count whole cheese and sandwich packages; each sandwich pack is one unit.</p><p><a href="https://www.fna.usda.gov/snap/retailer/stocking-standards-rule" target="_blank" rel="noopener">USDA final guidance</a> · <a href="https://www.fna.usda.gov/snap/retailer/stocking-standards-rule/calculator" target="_blank" rel="noopener">USDA calculator</a> · <a href="https://www.fna.usda.gov/snap/retailer/stocking-standards-faqs" target="_blank" rel="noopener">USDA FAQs (Oct. 30)</a> · <a href="https://www.fna.usda.gov/snap/retailer/stocking-standards-rule/pathways" target="_blank" rel="noopener">USDA sample pathways</a> · <a href="STOCKING-REVIEW.md" target="_blank">Full product review</a></p></details><p id="saveStatus" role="status" style="font-size:13px;color:#42655b">Quantities and dates save automatically in this browser.</p><div class="metrics" id="metrics"></div><div class="toolbar noprint"><input id="search" aria-label="Search products or food varieties" type="search" placeholder="Search product, food variety…" oninput="render()"><select id="filter" aria-label="Food category" onchange="render()"><option value="all">All food categories</option><option>Dairy</option><option>Grains</option><option>Protein</option><option>Produce</option></select><select id="status" aria-label="Stock status" onchange="render()"><option value="all">All products</option><option value="low">Only need to restock</option><option value="perish">Perishable products</option></select></div><div id="sections"></div><div class="foot">Product photos are saved with this website. Sandwich photos and ingredient links come from Great American Deli; the Mayfield pint uses your supplied photo. Click a photo to view its product page. Packaging and availability can change. “On old list” identifies a previously listed product; enter the quantity actually on your shelf. Rotate stock by expiration date and keep supplier receipts. <br>Sources: <a href="https://www.fna.usda.gov/snap/retailer/stocking-standards-rule/pathways">USDA Sample Pathways</a> · <a href="https://www.fna.usda.gov/snap/retailer/stocking-standards-rule">USDA Variety Rules</a>. Inventory stored locally in this browser only (not synced across devices).</div></main><div id="printSheet" class="print-only" aria-hidden="true"></div><script>
+</style></head><body><main><header><div class="top"><div><h1>SNAP Stocking & Shopping Checklist</h1><p>4 categories • 7 distinct varieties each • 3 units each • perishables in any 3 categories</p></div><div class="actions noprint"><button class="primary" onclick="printInventory(true)">🖨 Print with images</button><button onclick="printInventory(false)">Print compact checklist</button><button onclick="downloadCSV()">↓ Export CSV</button><button onclick="resetInventory()">Reset counts</button></div></div></header><div class="targets"><strong>NOVEMBER 4, 2026 — STOCKING PLAN</strong><div class="targetgrid"><div>① <b>4 food categories</b><small>Dairy · Grains · Protein · Fruits/Vegetables</small></div><div>② <b>7 different varieties EACH</b><small>28 varieties total</small></div><div>③ <b>3 units per variety</b><small>84 units minimum total</small></div><div>④ <b>Perishable in 3 categories</b><small>Only 1 perishable variety in each of those 3 categories</small></div></div><p><b>Our plan:</b> Dairy ✅ milk + refrigerated cheese · Protein ✅ refrigerated sandwiches · Fruits & Vegetables ✅ bananas · Grains: no perishable required.</p></div><div class="warning"><b>Action before November 4:</b> Confirm the American cheese ingredient label, or replace that slot with 3 sealed packages of plain block cheddar or mozzarella sticks. The other 27 planned slots fit the reviewed categories when labels and sale conditions match. Green rows show quantities only; manually check freshness, dates and refrigeration. See the <a href="STOCKING-REVIEW.md">full 28-product review</a>.</div><details class="review-summary"><summary>Stocking review · October 31, 2026 · 1 label check outstanding</summary><p>The 28-product plan maps to 7 distinct varieties per category. The American cheese SKU still needs its ingredient label checked. Counts below track entered inventory, not official eligibility.</p><p>Maintain 3 normal sale units per variety on every operating day. Milk, sandwiches and bananas supply the three planned perishable categories when stocked and saleable. Count whole cheese and sandwich packages; each sandwich pack is one unit.</p><p><a href="https://www.fna.usda.gov/snap/retailer/stocking-standards-rule" target="_blank" rel="noopener">USDA final guidance</a> · <a href="https://www.fna.usda.gov/snap/retailer/stocking-standards-rule/calculator" target="_blank" rel="noopener">USDA calculator</a> · <a href="https://www.fna.usda.gov/snap/retailer/stocking-standards-faqs" target="_blank" rel="noopener">USDA FAQs (Oct. 30)</a> · <a href="https://www.fna.usda.gov/snap/retailer/stocking-standards-rule/pathways" target="_blank" rel="noopener">USDA sample pathways</a> · <a href="STOCKING-REVIEW.md" target="_blank">Full product review</a></p></details><p id="saveStatus" role="status" style="font-size:13px;color:#42655b">Quantities and dates save automatically in this browser.</p><div class="metrics" id="metrics"></div><div class="toolbar noprint"><input id="search" aria-label="Search products or food varieties" type="search" placeholder="Search product, food variety…" oninput="render()"><select id="filter" aria-label="Food category" onchange="render()"><option value="all">All food categories</option><option>Dairy</option><option>Grains</option><option>Protein</option><option>Produce</option></select><select id="status" aria-label="Stock status" onchange="render()"><option value="all">All products</option><option value="low">Only need to restock</option><option value="perish">Perishable products</option></select></div><div id="sections"></div><div class="foot">Product photos are saved with this website. Sandwich photos and ingredient links come from Great American Deli; the Mayfield pint uses your supplied photo. Click a photo to view its product page. Packaging and availability can change. “In Store” identifies products in your supplied shelf photos; it does not confirm three units. “On old list” identifies a previously listed product; enter the quantity actually on your shelf. Rotate stock by expiration date and keep supplier receipts. <br>Sources: <a href="https://www.fna.usda.gov/snap/retailer/stocking-standards-rule/pathways">USDA Sample Pathways</a> · <a href="https://www.fna.usda.gov/snap/retailer/stocking-standards-rule">USDA Variety Rules</a>. Inventory stored locally in this browser only (not synced across devices).</div></main><div id="printSheet" class="print-only" aria-hidden="true"></div><script>
 const starter=[
   {
     "id": 1,
@@ -109,7 +113,8 @@ const starter=[
     "size": "12 fl oz can",
     "stockingMinimum": "3 cans",
     "reviewNote": "",
-    "labelPending": false
+    "labelPending": false,
+    "inStore": false
   },
   {
     "id": 2,
@@ -132,7 +137,8 @@ const starter=[
     "size": "3 × 3.2 oz pouches",
     "stockingMinimum": "3 retail boxes (3 pouches per box)",
     "reviewNote": "Count each complete retail box as one unit when sold boxed; do not count its inner pouches separately.",
-    "labelPending": false
+    "labelPending": false,
+    "inStore": false
   },
   {
     "id": 3,
@@ -155,7 +161,8 @@ const starter=[
     "size": "32 fl oz carton",
     "stockingMinimum": "3 cartons",
     "reviewNote": "Shelf-stable soy milk is a dairy alternative; it does not supply a perishable variety while unopened.",
-    "labelPending": false
+    "labelPending": false,
+    "inStore": false
   },
   {
     "id": 4,
@@ -178,7 +185,8 @@ const starter=[
     "size": "8 oz shaker",
     "stockingMinimum": "3 shakers",
     "reviewNote": "Grated Parmesan is distinct from non-shredded cheese. Shelf-stable unopened; follow the package storage label.",
-    "labelPending": false
+    "labelPending": false,
+    "inStore": false
   },
   {
     "id": 32,
@@ -201,7 +209,8 @@ const starter=[
     "size": "1 pint bottle (16 fl oz)",
     "stockingMinimum": "3 sealed pint bottles",
     "reviewNote": "Plain whole milk with vitamin D3; keep refrigerated. One sealed retail pint is one stocking unit. Walmart link searches for this exact size; availability varies.",
-    "labelPending": false
+    "labelPending": false,
+    "inStore": false
   },
   {
     "id": 6,
@@ -224,7 +233,8 @@ const starter=[
     "size": "7.6 fl oz can",
     "stockingMinimum": "3 cans",
     "reviewNote": "Light cream is the first ingredient in the manufacturer listing. Shelf-stable unopened.",
-    "labelPending": false
+    "labelPending": false,
+    "inStore": false
   },
   {
     "id": 7,
@@ -247,7 +257,8 @@ const starter=[
     "size": "16 oz · 24 slices",
     "stockingMinimum": "3 sealed 24-slice packages",
     "reviewNote": "Exact SKU ingredient label still needs confirmation. Verify the dairy-based sliced cheese product on the package; do not substitute cheese dip or spread. Count packages, not slices.",
-    "labelPending": true
+    "labelPending": true,
+    "inStore": false
   },
   {
     "id": 8,
@@ -270,7 +281,8 @@ const starter=[
     "size": "16 oz box",
     "stockingMinimum": "3 boxes",
     "reviewNote": "Use whole-wheat pasta; ordinary enriched pasta belongs to the separate non-whole-grain variety.",
-    "labelPending": false
+    "labelPending": false,
+    "inStore": false
   },
   {
     "id": 36,
@@ -293,7 +305,8 @@ const starter=[
     "size": "16 oz box",
     "stockingMinimum": "3 boxes",
     "reviewNote": "Enriched penne fills the non-whole-grain pasta variety. It replaces regular spaghetti; pasta shapes and brands do not add varieties.",
-    "labelPending": false
+    "labelPending": false,
+    "inStore": true
   },
   {
     "id": 37,
@@ -318,7 +331,8 @@ const starter=[
     "reviewNote": "Count each sealed cup as one unit when sold individually. Froot Loops cups can fill this same breakfast-cereal slot; the two cereals do not add separate varieties.",
     "labelPending": false,
     "photoSource": "H-E-B product photo",
-    "linkLabel": "Product details ↗"
+    "linkLabel": "Product details ↗",
+    "inStore": true
   },
   {
     "id": 11,
@@ -341,7 +355,8 @@ const starter=[
     "size": "32 oz box",
     "stockingMinimum": "3 boxes",
     "reviewNote": "Wheat flour must be the main qualifying ingredient. Pancake mix counts as a multi-ingredient wheat flour product, separate from breakfast cereal and plain wheat flour.",
-    "labelPending": false
+    "labelPending": false,
+    "inStore": false
   },
   {
     "id": 12,
@@ -364,7 +379,8 @@ const starter=[
     "size": "5 lb bag",
     "stockingMinimum": "3 bags",
     "reviewNote": "Wheat flour and corn flour are distinct grain varieties.",
-    "labelPending": false
+    "labelPending": false,
+    "inStore": false
   },
   {
     "id": 13,
@@ -387,7 +403,8 @@ const starter=[
     "size": "2 lb bag",
     "stockingMinimum": "3 bags",
     "reviewNote": "Different rice colors or brands remain this same rice variety.",
-    "labelPending": false
+    "labelPending": false,
+    "inStore": false
   },
   {
     "id": 14,
@@ -410,7 +427,8 @@ const starter=[
     "size": "80 oz bag",
     "stockingMinimum": "3 bags",
     "reviewNote": "Cornmeal is the corn-flour variety; it is distinct from wheat flour.",
-    "labelPending": false
+    "labelPending": false,
+    "inStore": false
   },
   {
     "id": 15,
@@ -433,30 +451,32 @@ const starter=[
     "size": "5 oz can",
     "stockingMinimum": "3 cans",
     "reviewNote": "Tuna must be the main qualifying ingredient. Keep the unopened shelf-stable can.",
-    "labelPending": false
+    "labelPending": false,
+    "inStore": true
   },
   {
-    "id": 16,
+    "id": 40,
     "cat": "Protein",
-    "name": "Canned chicken",
+    "name": "Armour Original Vienna Sausage",
     "variety": "Shelf-stable meat — chicken",
-    "query": "Great Value canned chicken 12.5 oz",
+    "query": "Armour Original Vienna Sausage",
     "shape": "can",
     "emoji": "🍗",
     "perish": false,
-    "url": "https://www.walmart.com/ip/10315929",
+    "url": "https://www.walmart.com/ip/43830575",
     "qty": 0,
     "min": 3,
     "notes": "",
     "expiry": "",
-    "photo": "assets/products/16.jpg",
+    "photo": "assets/products/40.jpg",
     "old": "",
-    "google": "https://www.google.com/search?tbm=isch&q=Great%20Value%20canned%20chicken%2012.5%20oz",
-    "remotePhoto": "https://i5.walmartimages.com/seo/Great-Value-Chunk-Chicken-in-Water-Chunks-12-5-Ounce-Can_208faf34-5632-4f11-934c-1ee23fce7878.22abd2b33291047a81980c7ed06f3083.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
-    "size": "12.5 oz can",
+    "google": "https://www.google.com/search?tbm=isch&q=Armour%20Original%20Vienna%20Sausage",
+    "remotePhoto": "https://i5.walmartimages.com/seo/Armour-Original-Vienna-Sausage-4-6-oz-Can_b2b731b7-2c69-4df7-adc1-5bb6c9edefce.bf195662b79419a5c0de34269bc3e14f.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "size": "4.6 oz can",
     "stockingMinimum": "3 cans",
-    "reviewNote": "Chicken must be the main qualifying ingredient. Keep the unopened shelf-stable can.",
-    "labelPending": false
+    "reviewNote": "Replaces canned chicken in the same shelf-stable chicken variety. Confirm mechanically separated chicken is the first qualifying ingredient on your can. Other flavors with the same main meat do not add varieties.",
+    "labelPending": false,
+    "inStore": true
   },
   {
     "id": 17,
@@ -479,7 +499,8 @@ const starter=[
     "size": "15 oz can",
     "stockingMinimum": "3 cans",
     "reviewNote": "Use canned DINTY MOORE beef stew: manufacturer lists beef after beef stock. Do not substitute the microwave tray formula, which lists potatoes ahead of beef.",
-    "labelPending": false
+    "labelPending": false,
+    "inStore": true
   },
   {
     "id": 38,
@@ -502,7 +523,8 @@ const starter=[
     "size": "16 oz jar",
     "stockingMinimum": "3 jars",
     "reviewNote": "Peanut butter fills the nuts-and-seeds variety. Other brands or nut butters do not add another variety.",
-    "labelPending": false
+    "labelPending": false,
+    "inStore": true
   },
   {
     "id": 33,
@@ -524,7 +546,8 @@ const starter=[
     "labelPending": false,
     "linkLabel": "Product & ingredients ↗",
     "photoSource": "Manufacturer product photo",
-    "ingredientEvidence": "Smoked turkey breast is listed before bread and cheese."
+    "ingredientEvidence": "Smoked turkey breast is listed before bread and cheese.",
+    "inStore": false
   },
   {
     "id": 34,
@@ -546,7 +569,8 @@ const starter=[
     "labelPending": false,
     "linkLabel": "Product & ingredients ↗",
     "photoSource": "Manufacturer product photo",
-    "ingredientEvidence": "Smoked ham is listed before bread and cheese."
+    "ingredientEvidence": "Smoked ham is listed before bread and cheese.",
+    "inStore": false
   },
   {
     "id": 35,
@@ -568,53 +592,58 @@ const starter=[
     "labelPending": false,
     "linkLabel": "Product & ingredients ↗",
     "photoSource": "Manufacturer product photo",
-    "ingredientEvidence": "Chicken salad is listed first; its first component is white-meat chicken, followed by dressing and other ingredients."
+    "ingredientEvidence": "Chicken salad is listed first; its first component is white-meat chicken, followed by dressing and other ingredients.",
+    "inStore": false
   },
   {
-    "id": 22,
+    "id": 42,
     "cat": "Produce",
-    "name": "Canned green beans",
-    "variety": "Green beans",
-    "query": "Great Value canned green beans",
+    "name": "Del Monte No Salt Added Whole Kernel Corn",
+    "variety": "Corn",
+    "query": "Del Monte No Salt Added Whole Kernel Corn",
     "shape": "can",
     "emoji": "🫛",
     "perish": false,
-    "url": "https://www.walmart.com/ip/10315429",
+    "url": "https://www.walmart.com/ip/10295219",
     "qty": 0,
     "min": 3,
     "notes": "",
     "expiry": "",
-    "photo": "assets/products/22.jpg",
+    "photo": "assets/products/42.jpg",
     "old": "",
-    "google": "https://www.google.com/search?tbm=isch&q=Great%20Value%20canned%20green%20beans",
-    "remotePhoto": "https://i5.walmartimages.com/seo/Great-Value-Canned-Whole-Green-Beans-Gluten-Free-14-5-oz_e8cfd86c-bba5-4481-a8e2-4414d89b19fc.8adb9905a92dd3de28ccba6789cb0eec.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
-    "size": "14.5 oz can",
+    "google": "https://www.google.com/search?tbm=isch&q=Del%20Monte%20No%20Salt%20Added%20Whole%20Kernel%20Corn",
+    "remotePhoto": "https://i5.walmartimages.com/seo/DEL-MONTE-Golden-Sweet-Whole-Kernel-Corn-No-Salt-Added-15-25-oz-Can_f9364f1c-7e3d-433a-b2e3-9ae1a7a2e79b.0709c757616b83fd13e0df7f7fe2e27f.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "size": "15.25 oz can",
     "stockingMinimum": "3 cans",
-    "reviewNote": "",
-    "labelPending": false
+    "reviewNote": "Replaces canned green beans with a corn variety in Vegetables & Fruits. Corn must be the main qualifying ingredient. Canned corn is shelf-stable unopened.",
+    "labelPending": false,
+    "inStore": true
   },
   {
-    "id": 23,
+    "id": 41,
     "cat": "Produce",
-    "name": "Canned tomato paste",
+    "name": "Campbell’s Condensed Tomato Soup",
     "variety": "Tomatoes",
-    "query": "Great Value tomato paste 6oz",
+    "query": "Campbell’s Condensed Tomato Soup",
     "shape": "can",
     "emoji": "🍅",
     "perish": false,
-    "url": "https://www.walmart.com/ip/10415519",
+    "url": "https://www.campbells.com/products/condensed/tomato-soup/",
     "qty": 0,
     "min": 3,
     "notes": "",
     "expiry": "",
-    "photo": "assets/products/23.jpg",
+    "photo": "assets/products/41.png",
     "old": "",
-    "google": "https://www.google.com/search?tbm=isch&q=Great%20Value%20tomato%20paste%206oz",
-    "remotePhoto": "https://i5.walmartimages.com/seo/Great-Value-Tomato-Paste-6-oz_6af82872-b2ee-445f-afd4-71a117a6da4e.811df3352f4139d299bbcc21b97292c4.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
-    "size": "6 oz can",
+    "google": "https://www.google.com/search?tbm=isch&q=Campbell%E2%80%99s%20Condensed%20Tomato%20Soup",
+    "remotePhoto": "https://images.salsify.com/image/upload/s--OxQDwkQc--/e_trim/h_700%2Cw_700%2Cq_auto%2Cg_center%2Cfl_clip%2Cf_auto%2Cc_pad/azrabouvsgbxudiuk882.png",
+    "size": "10.75 oz can",
     "stockingMinimum": "3 cans",
-    "reviewNote": "",
-    "labelPending": false
+    "reviewNote": "Replaces tomato paste in the same tomato variety. Manufacturer lists tomato puree first. Count each sealed retail can as one unit.",
+    "labelPending": false,
+    "photoSource": "Manufacturer product photo",
+    "linkLabel": "Product & ingredients ↗",
+    "inStore": true
   },
   {
     "id": 24,
@@ -637,7 +666,8 @@ const starter=[
     "size": "8 oz can",
     "stockingMinimum": "3 cans",
     "reviewNote": "",
-    "labelPending": false
+    "labelPending": false,
+    "inStore": true
   },
   {
     "id": 25,
@@ -660,30 +690,34 @@ const starter=[
     "size": "2.25 oz can",
     "stockingMinimum": "3 cans",
     "reviewNote": "",
-    "labelPending": false
+    "labelPending": false,
+    "inStore": false
   },
   {
-    "id": 26,
+    "id": 43,
     "cat": "Produce",
-    "name": "Great Value 100% Concord grape juice",
-    "variety": "Grapes (100% juice)",
-    "query": "Great Value 100 percent grape juice",
+    "name": "Campbell’s Condensed Cream of Mushroom Soup",
+    "variety": "Mushrooms",
+    "query": "Campbell’s Condensed Cream of Mushroom Soup",
     "shape": "bottle",
     "emoji": "🍇",
     "perish": false,
-    "url": "https://www.walmart.com/ip/12927454291",
+    "url": "https://www.campbells.com/products/condensed/cream-of-mushroom-soup/",
     "qty": 0,
     "min": 3,
     "notes": "",
     "expiry": "",
-    "photo": "assets/products/26.jpg",
+    "photo": "assets/products/43.png",
     "old": "",
-    "google": "https://www.google.com/search?tbm=isch&q=Great%20Value%20100%20percent%20grape%20juice",
-    "remotePhoto": "https://i5.walmartimages.com/seo/Great-Value-100-Concord-Grape-Juice-64-fl-oz_f329d09c-a400-4a52-9f6c-a16fce37d0d1.79b7a6c446505eba432b3cc7ee1b6452.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
-    "size": "64 fl oz bottle",
-    "stockingMinimum": "3 bottles",
-    "reviewNote": "Use 100% grape juice, not grape drink, cocktail, or punch. It counts as grapes, not a separate juice variety.",
-    "labelPending": false
+    "google": "https://www.google.com/search?tbm=isch&q=Campbell%E2%80%99s%20Condensed%20Cream%20of%20Mushroom%20Soup",
+    "remotePhoto": "https://images.salsify.com/image/upload/s--ke0UGNtJ--/e_trim/h_700%2Cw_700%2Cq_auto%2Cg_center%2Cfl_clip%2Cf_auto%2Cc_pad/xcevjbvhjan2loftq5ex.png",
+    "size": "10.5 oz can",
+    "stockingMinimum": "3 cans",
+    "reviewNote": "Replaces grape juice with a mushroom variety in Vegetables & Fruits. Manufacturer lists water followed by mushrooms. This is not a dairy cream variety. Shelf-stable unopened.",
+    "labelPending": false,
+    "photoSource": "Manufacturer product photo",
+    "linkLabel": "Product & ingredients ↗",
+    "inStore": true
   },
   {
     "id": 39,
@@ -706,7 +740,8 @@ const starter=[
     "size": "9 oz box",
     "stockingMinimum": "3 retail boxes",
     "reviewNote": "Replaces dried apricots with the potato variety in Vegetables & Fruits. Confirm potatoes are the first qualifying ingredient on the actual box. Shelf-stable while unopened; does not supply a perishable category.",
-    "labelPending": false
+    "labelPending": false,
+    "inStore": true
   },
   {
     "id": 31,
@@ -729,7 +764,8 @@ const starter=[
     "size": "1 banana",
     "stockingMinimum": "3 individual bananas, sold individually",
     "reviewNote": "Keep at least 3 saleable individual bananas if sold each. If sold by the bunch, count bunches instead. Check ripeness daily.",
-    "labelPending": false
+    "labelPending": false,
+    "inStore": false
   }
 ];
 const key='snap-retailer-inventory-v3';
@@ -780,9 +816,11 @@ function persistInput(id,field,val){
 }
 function update(id,field,val){persistInput(id,field,val);render()}
 function metrics(){let ok=products.filter(x=>x.qty>=3).length,units=products.reduce((s,x)=>s+Math.min(x.qty,3),0),cats=['Dairy','Protein','Produce','Grains'].filter(cat=>products.some(p=>p.cat===cat&&p.perish&&p.qty>=3)).length;document.getElementById('metrics').innerHTML=`<div class="metric"><strong>${ok}/28</strong><span>Planned varieties with 3+ units</span></div><div class="metric"><strong>${units}/84</strong><span>Units entered toward 84 minimum</span></div><div class="metric"><strong>${cats}/3</strong><span>Perishable categories (target)</span></div><div class="metric"><strong>${products.reduce((s,p)=>s+Math.max(0,3-p.qty),0)}</strong><span>Units to buy to reach minimum</span></div>`}
-function render(){metrics();let search=document.getElementById('search').value.trim().toLowerCase(),cat=document.getElementById('filter').value,status=document.getElementById('status').value;document.getElementById('sections').innerHTML=['Dairy','Grains','Protein','Produce'].map(c=>{if(cat!=='all'&&cat!==c)return '';let arr=products.filter(p=>p.cat===c&&(!search||(p.name+' '+p.variety).toLowerCase().includes(search))&&(status==='all'||status==='low'&&p.qty<3||status==='perish'&&p.perish));if(!arr.length)return '';let covered=products.filter(p=>p.cat===c&&p.qty>=3).length;return `<section class="section"><div class="section-head"><h2>${c==='Produce'?'Vegetables & Fruits':c}</h2><span>${covered} of 7 varieties stocked · Minimum 21 units</span></div><div class="tablewrap"><table aria-label="${c==='Produce'?'Vegetables and Fruits':c} inventory"><thead><tr><th scope="col">Product / image</th><th scope="col">USDA variety target</th><th>Storage</th><th>Have</th><th>Buy</th><th>Best-by / use-by</th><th>Product link</th></tr></thead><tbody>${arr.map(p=>`<tr id="product-row-${p.id}" class="${p.qty<3?'low':''} ${p.qty>=3?'stocked-row':''}"><td><div class="prod"><a href="${p.url}" target="_blank" rel="noopener noreferrer" title="View product details and ingredients"><img class="pic" src="${escapeHtml(p.photo)}" loading="eager" decoding="async" width="96" height="100" onerror="imageError(this)" data-fallback="${escapeHtml(p.remotePhoto)}" referrerpolicy="no-referrer" alt="${p.photoSource||(p.id===32?'Mayfield product photo':'Walmart product photo')}: ${escapeHtml(p.name)}"></a><div><strong>${escapeHtml(p.name)}</strong><small>${p.old?`<span class="oldlabel" title="${escapeHtml(p.old)}">✓ On old list</span> · `:""}Minimum: ${escapeHtml(p.stockingMinimum)}</small><small class="package-size">${escapeHtml(p.size)}</small>${p.reviewNote?`<details class="product-details"><summary>${p.ingredientEvidence?'Ingredients & counting rules':'Stocking details'}</summary><p class="review-note ${p.labelPending?'pending':''}">${escapeHtml(p.reviewNote)}</p>${p.ingredientEvidence?`<a href="${escapeHtml(p.url)}" target="_blank" rel="noopener noreferrer">Read manufacturer ingredients ↗</a>`:''}</details>`:''}</div></div></td><td class="sub" data-label="USDA variety"><span class="variety-label">${escapeHtml(p.variety)}</span></td><td data-label="Storage"><span class="${p.perish?'perish':'shelf'}">${p.perish?'❄ Perishable':'◷ Shelf-stable'}</span></td><td data-label="Have"><input class="number" aria-label="Inventory quantity for ${escapeHtml(p.name)}" type="number" min="0" value="${p.qty}" oninput="persistInput(${p.id},'qty',this.value)" onchange="update(${p.id},'qty',this.value)"></td><td data-label="Buy"><span class="stock-indicator ${p.qty>=3?'ok':'need'}">${p.qty>=3?'✓ Stocked':'+ '+(3-p.qty)+' needed'}</span></td><td data-label="Best-by / use-by"><input class="date" type="date" aria-label="Expiry date for ${escapeHtml(p.name)}" value="${escapeHtml(p.expiry)}" oninput="persistInput(${p.id},'expiry',this.value)" onchange="update(${p.id},'expiry',this.value)"></td><td class="shopping"><a class="buy" href="${p.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(p.linkLabel||'Buy at Walmart ↗')}</a></td></tr>`).join('')}</tbody></table></div></section>`}).join('') || '<p class="empty" role="status">No products match your filters.</p>'}
+function render(){metrics();let search=document.getElementById('search').value.trim().toLowerCase(),cat=document.getElementById('filter').value,status=document.getElementById('status').value;document.getElementById('sections').innerHTML=['Dairy','Grains','Protein','Produce'].map(c=>{if(cat!=='all'&&cat!==c)return '';let arr=products.filter(p=>p.cat===c&&(!search||(p.name+' '+p.variety).toLowerCase().includes(search))&&(status==='all'||status==='low'&&p.qty<3||status==='perish'&&p.perish));if(!arr.length)return '';let covered=products.filter(p=>p.cat===c&&p.qty>=3).length;return `<section class="section"><div class="section-head"><h2>${c==='Produce'?'Vegetables & Fruits':c}</h2><span>${covered} of 7 varieties stocked · Minimum 21 units</span></div><div class="tablewrap"><table aria-label="${c==='Produce'?'Vegetables and Fruits':c} inventory"><thead><tr><th scope="col">Product / image</th><th scope="col">USDA variety target</th><th>Storage</th><th>Have</th><th>Buy</th><th>Best-by / use-by</th><th>Product link</th></tr></thead><tbody>${arr.map(p=>`<tr id="product-row-${p.id}" class="${p.qty<3?'low':''} ${p.qty>=3?'stocked-row':''}"><td><div class="prod"><a href="${p.url}" target="_blank" rel="noopener noreferrer" title="View product details and ingredients"><img class="pic" src="${escapeHtml(p.photo)}" loading="eager" decoding="async" width="96" height="100" onerror="imageError(this)" data-fallback="${escapeHtml(p.remotePhoto)}" referrerpolicy="no-referrer" alt="${p.photoSource||(p.id===32?'Mayfield product photo':'Walmart product photo')}: ${escapeHtml(p.name)}"></a><div><strong>${escapeHtml(p.name)}</strong><small>${p.inStore?'<span class="oldlabel" title="Identified in your store photos; enter the actual saleable quantity separately.">✓ In Store</span> · ':''}${p.old?`<span class="oldlabel" title="${escapeHtml(p.old)}">✓ On old list</span> · `:""}Minimum: ${escapeHtml(p.stockingMinimum)}</small><small class="package-size">${escapeHtml(p.size)}</small>${p.reviewNote?`<details class="product-details"><summary>${p.ingredientEvidence?'Ingredients & counting rules':'Stocking details'}</summary><p class="review-note ${p.labelPending?'pending':''}">${escapeHtml(p.reviewNote)}</p>${p.ingredientEvidence?`<a href="${escapeHtml(p.url)}" target="_blank" rel="noopener noreferrer">Read manufacturer ingredients ↗</a>`:''}</details>`:''}</div></div></td><td class="sub" data-label="USDA variety"><span class="variety-label">${escapeHtml(p.variety)}</span></td><td data-label="Storage"><span class="${p.perish?'perish':'shelf'}">${p.perish?'❄ Perishable':'◷ Shelf-stable'}</span></td><td data-label="Have"><input class="number" aria-label="Inventory quantity for ${escapeHtml(p.name)}" type="number" min="0" value="${p.qty}" oninput="persistInput(${p.id},'qty',this.value)" onchange="update(${p.id},'qty',this.value)"></td><td data-label="Buy"><span class="stock-indicator ${p.qty>=3?'ok':'need'}">${p.qty>=3?'✓ Stocked':'+ '+(3-p.qty)+' needed'}</span></td><td data-label="Best-by / use-by"><input class="date" type="date" aria-label="Expiry date for ${escapeHtml(p.name)}" value="${escapeHtml(p.expiry)}" oninput="persistInput(${p.id},'expiry',this.value)" onchange="update(${p.id},'expiry',this.value)"></td><td class="shopping"><a class="buy" href="${p.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(p.linkLabel||'Buy at Walmart ↗')}</a></td></tr>`).join('')}</tbody></table></div></section>`}).join('') || '<p class="empty" role="status">No products match your filters.</p>'}
 
-function buildPrintSheet(){
+let printWithImages=true;
+function buildPrintSheet(includeImages=printWithImages){
+  printWithImages=includeImages===true;
   // Build an unfiltered, print-friendly checklist from live inventory values.
   const catNames={Dairy:'Dairy',Grains:'Bread & Cereals',Protein:'Meat, Poultry, Fish & Protein',Produce:'Vegetables & Fruits'};
   const today=new Date().toLocaleDateString();
@@ -791,20 +829,26 @@ function buildPrintSheet(){
   for(const cat of ['Dairy','Grains','Protein','Produce']){
     const arr=products.filter(p=>p.cat===cat);
     const stocked=arr.filter(p=>p.qty>=3).length;
-    html+=`<h2>${catNames[cat]} — ${stocked}/7 varieties stocked</h2><table><thead><tr><th style="width:34%">Product</th><th style="width:25%">SNAP Variety</th><th style="width:10%">Have</th><th style="width:10%">Buy</th><th style="width:21%">Expiration / Check</th></tr></thead><tbody>`;
-    for(const p of arr){html+=`<tr><td>${clean(p.name)}${p.perish?' <b>(Perishable)</b>':''}<div class="muted">Min: ${clean(p.stockingMinimum)}</div>${p.labelPending?'<div class="muted"><b>Ingredient label check required</b></div>':''}${p.ingredientEvidence?`<div class="muted">${clean(p.ingredientEvidence)} Keep refrigerated; sell cold for home consumption.</div>`:''}</td><td>${clean(p.variety)}</td><td>${p.qty}</td><td>${Math.max(0,3-p.qty)}</td><td>${p.expiry?clean(p.expiry):'___________'} &nbsp; □</td></tr>`}
-    html+='</tbody></table>';
+    html+=`<section class="print-category"><h2>${catNames[cat]} — ${stocked}/7 varieties stocked</h2><table><thead><tr>${printWithImages?'<th style="width:14%">Photo</th>':''}<th style="width:${printWithImages?28:34}%">Product</th><th style="width:${printWithImages?22:25}%">SNAP Variety</th><th style="width:${printWithImages?8:10}%">Have</th><th style="width:${printWithImages?8:10}%">Buy</th><th style="width:${printWithImages?20:21}%">Expiration / Check</th></tr></thead><tbody>`;
+    for(const p of arr){html+=`<tr>${printWithImages?`<td><img class="print-photo" src="${clean(p.photo)}" alt="${clean(p.name)}" width="70" height="76" loading="eager"></td>`:''}<td>${clean(p.name)}${p.inStore?' <span class="oldlabel">✓ In Store</span>':''}${p.perish?' <b>(Perishable)</b>':''}<div class="muted">Min: ${clean(p.stockingMinimum)}</div>${p.labelPending?'<div class="muted"><b>Ingredient label check required</b></div>':''}${p.ingredientEvidence?`<div class="muted">${clean(p.ingredientEvidence)} Keep refrigerated; sell cold for home consumption.</div>`:''}</td><td>${clean(p.variety)}</td><td>${p.qty}</td><td>${Math.max(0,3-p.qty)}</td><td>${p.expiry?clean(p.expiry):'___________'} &nbsp; □</td></tr>`}
+    html+='</tbody></table></section>';
   }
   const stocked=products.filter(p=>p.qty>=3).length;
   const perishableCats=['Dairy','Grains','Protein','Produce'].filter(c=>products.some(p=>p.cat===c&&p.perish&&p.qty>=3)).length;
   html+=`<div class="printfoot"><b>Stocked varieties:</b> ${stocked}/28 &nbsp; <b>Perishable categories stocked:</b> ${perishableCats}/3 &nbsp; <b>Additional units needed:</b> ${products.reduce((n,p)=>n+Math.max(0,3-p.qty),0)}<p>Quantities are entered stock counts, not an eligibility certification. Confirm the cheese ingredient label. Keep the minimum stock for sale throughout every operating day; inspect freshness and rotate stock.</p></div>`;
-  document.getElementById('printSheet').innerHTML=html;
+  const sheet=document.getElementById('printSheet');
+  sheet.className='print-only'+(printWithImages?' with-images':'');
+  if(sheet.innerHTML!==html)sheet.innerHTML=html;
 }
-function printInventory(){buildPrintSheet();window.print()}
-window.addEventListener('beforeprint',buildPrintSheet);
+async function printInventory(includeImages=true){
+  buildPrintSheet(includeImages);
+  await Promise.all(Array.from(document.getElementById('printSheet').querySelectorAll('img'), img=>img.decode().catch(()=>{})));
+  window.print();
+}
+window.addEventListener('beforeprint',()=>buildPrintSheet());
 
 
-function downloadCSV(){let rows=[['Category','Product','Variety','Perishable','Quantity on hand','Minimum','Need to buy','Expiry date','Product link'],...products.map(p=>[p.cat,p.name,p.variety,p.perish?'Yes':'No',p.qty,3,Math.max(0,3-p.qty),p.expiry,p.url])];let csv=rows.map(r=>r.map(v=>'"'+String(v).replaceAll('"','""')+'"').join(',')).join('\r\n');let a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));a.download='SNAP-2026-inventory.csv';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)}
+function downloadCSV(){let rows=[['Category','Product','Variety','Perishable','Quantity on hand','Minimum','Need to buy','Expiry date','In Store','Product link'],...products.map(p=>[p.cat,p.name,p.variety,p.perish?'Yes':'No',p.qty,3,Math.max(0,3-p.qty),p.expiry,p.inStore?'Yes':'No',p.url])];let csv=rows.map(r=>r.map(v=>'"'+String(v).replaceAll('"','""')+'"').join(',')).join('\r\n');let a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));a.download='SNAP-2026-inventory.csv';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)}
 function resetInventory(){if(confirm('Clear all quantities and expiration dates?')){products.forEach(p=>{p.qty=0;p.expiry=''});save();render()}}
 render();
 </script></body></html>
