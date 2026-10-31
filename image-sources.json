@@ -13,26 +13,12 @@
     "verified": "2026-10-28",
     "local": "assets/products/02.jpg"
   },
-  "3": {
-    "image": "https://i5.walmartimages.com/seo/Silk-Shelf-Stable-Dairy-Free-Lactose-Free-Original-Soy-Milk-32-fl-oz-Quart_7d71dbd6-4c1a-4cc3-a6cf-d9b7eaedca5e.ff1a0e7bb496687c197e2240219e3af1.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
-    "product": "Silk original shelf-stable soy milk",
-    "product_url": "https://www.walmart.com/ip/10535900",
-    "verified": "2026-10-28",
-    "local": "assets/products/03.jpg"
-  },
   "4": {
     "image": "https://i5.walmartimages.com/seo/Kraft-Natural-Grated-Parmesan-Cheese-Shaker-8-oz-Bottle_b9066efb-aedb-41cb-96f9-25425b2b5092.03a5637f79524a40e65f4b92b32c0b06.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
     "product": "Kraft Grated Parmesan Cheese",
     "product_url": "https://www.walmart.com/ip/15716473",
     "verified": "2026-10-28",
     "local": "assets/products/04.jpg"
-  },
-  "6": {
-    "image": "https://i5.walmartimages.com/seo/Nestle-Media-Crema-Neutral-Flavor-Heavy-Table-Dairy-Cream-7-6-fl-oz-Can_527b09d3-ea5e-40b3-8035-f33b7bf7d368.483997c9f16f01b4c463376f8a0592e7.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
-    "product": "Nestlé Media Crema Table Cream, 7.6 oz",
-    "product_url": "https://www.walmart.com/ip/10804326",
-    "verified": "2026-10-28",
-    "local": "assets/products/06.jpg"
   },
   "7": {
     "image": "https://i5.walmartimages.com/seo/Great-Value-Individually-Plastic-Wrapped-Singles-American-Cheese-Product-16-oz-24-Slices_2c5a6207-c4db-46ff-a7b8-e6ce421a2b43.5d8f1343e92c0c49e013228f4a344dea.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
@@ -96,13 +82,6 @@
     "product_url": "https://www.walmart.com/ip/10304321",
     "verified": "2026-10-28",
     "local": "assets/products/24.png"
-  },
-  "25": {
-    "image": "https://i5.walmartimages.com/seo/Great-Value-Sliced-Black-Olives-2-25-oz-Major-Allergens-Not-Contained_acdc0e2d-4342-4969-8d24-3a974479140b.ea74866bb553c908df8c3e91ddbabeca.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
-    "product": "Canned black olives",
-    "product_url": "https://www.walmart.com/ip/10315447",
-    "verified": "2026-10-28",
-    "local": "assets/products/25.jpg"
   },
   "31": {
     "image": "https://i5.walmartimages.com/seo/Fresh-Banana-Each_5939a6fa-a0d6-431c-88c6-b4f21608e4be.f7cd0cc487761d74c69b7731493c1581.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
@@ -207,5 +186,29 @@
     "source_type": "manufacturer",
     "verified": "2026-10-31",
     "local": "assets/products/43.png"
+  },
+  "45": {
+    "image": "https://www.yoplait.com/wp-content/uploads/2022/05/yoplait_original_low_fat_strawberry_yogurt_cup_made_with_real_fruit_6_oz_front_of_package.png",
+    "source_type": "manufacturer",
+    "product": "Yoplait Original Strawberry Low Fat Yogurt, 6 oz",
+    "product_url": "https://www.yoplait.com/products/original-single-serve-strawberry",
+    "verified": "2026-10-31",
+    "local": "assets/products/45.png"
+  },
+  "44": {
+    "image": "https://www.mayfielddairy.com/wp-content/uploads/2021/06/MAY_WHL_CHOC_FRSH_FED_PT_SLV_2048823-1.png",
+    "source_type": "manufacturer",
+    "product": "Mayfield Whole Chocolate Milk, 1 pt",
+    "product_url": "https://www.mayfielddairy.com/products/milk-and-cream/whole-chocolate-milk-plastic-pint/",
+    "verified": "2026-10-31",
+    "local": "assets/products/44.png"
+  },
+  "46": {
+    "image": "https://assets.syndigo.cloud/cdn/e013bd49-c72d-4f8a-8899-7eec797cc858/fileType_jpg%3Bsize_600x600/e013bd49-c72d-4f8a-8899-7eec797cc858",
+    "source_type": "retailer",
+    "product": "good2grow 100% Apple Juice, 6 fl oz",
+    "product_url": "https://foodlion.com/groceries/product/good2grow-100-apple-juice-6-oz-btl/185573",
+    "verified": "2026-10-31",
+    "local": "assets/products/46.jpg"
   }
 }

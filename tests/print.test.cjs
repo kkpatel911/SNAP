@@ -47,10 +47,22 @@ test('print dialog waits for photo decoding, including a failed image',async()=>
 test('in-store badges appear on screen and print without treating photographed stock as a quantity count',()=>{
   const {ctx,document}=load();
   const data=vm.runInContext('products',ctx);
-  assert.equal(data.filter(p=>p.inStore).length,16);
-  assert.equal((document.getElementById('sections').innerHTML.match(/>✓ In Store<\/span>/g)||[]).length,16);
+  assert.equal(data.filter(p=>p.inStore).length,19);
+  assert.equal((document.getElementById('sections').innerHTML.match(/>✓ In Store<\/span>/g)||[]).length,19);
   assert.equal(data.find(p=>p.name==='Armour Original Vienna Sausage').qty,0);
   vm.runInContext('buildPrintSheet(true)',ctx);
-  assert.equal((document.getElementById('printSheet').innerHTML.match(/>✓ In Store<\/span>/g)||[]).length,16);
+  assert.equal((document.getElementById('printSheet').innerHTML.match(/>✓ In Store<\/span>/g)||[]).length,19);
   for(const cat of ['Dairy','Grains','Protein','Produce'])assert.equal(new Set(data.filter(p=>p.cat===cat).map(p=>p.variety)).size,7);
+});
+
+test('approved cooler replacements have separate varieties and never inherit replaced product counts',()=>{
+  const {ctx}=load();
+  const data=vm.runInContext('products',ctx);
+  for(const id of [3,6,25])assert.equal(data.some(p=>p.id===id),false);
+  const milk=data.find(p=>p.id===44),yogurt=data.find(p=>p.id===45),juice=data.find(p=>p.id===46);
+  assert.equal(milk.variety,'Multi-ingredient perishable milk product');
+  assert.equal(yogurt.variety,'Yogurt (non-liquid)');
+  assert.equal(juice.variety,'Apples (100% juice)');
+  for(const p of [milk,yogurt,juice]){assert.equal(p.inStore,true);assert.equal(p.qty,0);assert.equal(p.expiry,'');}
+  assert.equal(milk.perish,true);assert.equal(yogurt.perish,true);assert.equal(juice.perish,false);
 });

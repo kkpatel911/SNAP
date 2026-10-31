@@ -12,10 +12,10 @@ USDA’s [sample pathways](https://www.fna.usda.gov/snap/retailer/stocking-stand
 |---|---|---|---|---|
 | Dairy | Evaporated milk | Shelf-stable milk | 3 cans | Fits the planned product type; check actual package and condition. |
 | Dairy | Powdered dry milk | Dried or powdered milk | 3 retail boxes (3 pouches per box) | Count each complete retail box as one unit when sold boxed; do not count its inner pouches separately. |
-| Dairy | Silk original shelf-stable soy milk | Plant-based dairy alternative — soy milk | 3 cartons | Shelf-stable soy milk is a dairy alternative; it does not supply a perishable variety while unopened. |
+| Dairy | Yoplait Original Strawberry Low Fat Yogurt, 6 oz | Yogurt (non-liquid) | 3 individually sold sealed cups | Replaces Silk soy milk with the non-liquid yogurt variety. Manufacturer lists cultured Grade A low-fat milk first. Keep refrigerated. Count three cups only when each is intended for individual sale; if sold as a multipack, count whole retail packs. Strawberry banana yogurt shares this same yogurt variety; it is not a separate fruit variety. |
 | Dairy | Kraft Grated Parmesan Cheese | Shredded cheese (grated Parmesan) | 3 shakers | Grated Parmesan is distinct from non-shredded cheese. Shelf-stable unopened; follow the package storage label. |
 | Dairy | Mayfield Whole Milk, 1 pt | Plain perishable liquid milk | 3 sealed pint bottles | Milk and vitamin D3 per manufacturer; keep refrigerated. |
-| Dairy | Nestlé Media Crema Table Cream, 7.6 fl oz | Cream | 3 cans | Light cream is the first ingredient in the manufacturer listing. Shelf-stable unopened. |
+| Dairy | Mayfield Whole Chocolate Milk, 1 pt | Multi-ingredient perishable milk product | 3 sealed pint bottles | Replaces Media Crema with a distinct flavored perishable milk variety. Manufacturer ingredients begin with milk, followed by sweeteners and cocoa. Separate from plain milk, yogurt and shelf-stable milk. Keep refrigerated; count one sealed bottle as one unit. Check the actual package matches. |
 | Dairy | Great Value American Cheese Singles, 16 oz (24 slices) | Cheese (not shredded) | 3 sealed 24-slice packages | Exact SKU ingredient label still needs confirmation. Verify the dairy-based sliced cheese product on the package; do not substitute cheese dip or spread. Count packages, not slices. |
 | Grains | Whole-wheat spaghetti | Whole grain pasta/noodles | 3 boxes | Use whole-wheat pasta; ordinary enriched pasta belongs to the separate non-whole-grain variety. |
 | Grains | Great Value Penne Pasta, 16 oz | Non-whole grain pasta/noodles | 3 boxes | Enriched penne replaces regular spaghetti in the same variety. |
@@ -34,7 +34,7 @@ USDA’s [sample pathways](https://www.fna.usda.gov/snap/retailer/stocking-stand
 | Produce | Del Monte No Salt Added Whole Kernel Corn | Corn | 3 cans | Replaces canned green beans with a corn variety in Vegetables & Fruits. Corn must be the main qualifying ingredient. Canned corn is shelf-stable unopened. |
 | Produce | Campbell’s Condensed Tomato Soup | Tomatoes | 3 cans | Replaces tomato paste in the same tomato variety. Manufacturer lists tomato puree first. Count each sealed retail can as one unit. |
 | Produce | Dole pineapple slices, 8 oz | Pineapple | 3 cans | Fits the planned product type; check actual package and condition. |
-| Produce | Canned black olives | Olives | 3 cans | Fits the planned product type; check actual package and condition. |
+| Produce | good2grow 100% Apple Juice, 6 fl oz | Apples (100% juice) | 3 individually sold sealed bottles | Replaces olives with the apple variety. Manufacturer-supplied retailer ingredients: filtered water, concentrated apple juice, vitamin C and natural flavors. Use the 100% APPLE JUICE bottle, not a juice drink or mixed juice without checking its main ingredient. Shelf-stable unopened even when displayed in a cooler; refrigerate after opening. One separately sold bottle is one stocking unit. |
 | Produce | Campbell’s Condensed Cream of Mushroom Soup | Mushrooms | 3 cans | Replaces grape juice with a mushroom variety in Vegetables & Fruits. Manufacturer lists water followed by mushrooms. This is not a dairy cream variety. Shelf-stable unopened. |
 | Produce | Great Value Instant Mashed Potatoes, 9 oz | Potatoes (dried instant) | 3 retail boxes | Replaces dried apricots. Potatoes must be the first qualifying ingredient; shelf-stable unopened. |
 | Produce | Fresh bananas | Bananas (fresh) | 3 individual bananas, sold individually | Keep at least 3 saleable individual bananas if sold each. If sold by the bunch, count bunches instead. Check ripeness daily. |
@@ -112,3 +112,24 @@ Eleven current checklist products identified in the shelf photos are marked **In
 The plan retains seven varieties per category and the milk/sandwich/banana perishable categories. Remaining sandwiches and canned olives were not replaced.
 
 User confirmed Mayfield pint milk, Great Value American cheese singles, and all three Great American Deli sandwiches are **In Store**. These five entries are now marked, bringing the total to 16. Product presence does not resolve the cheese ingredient-label check or establish quantities.
+
+## Current cooler substitutions and rule assessment — October 31, 2026
+
+This section and the main product table supersede earlier soy milk, cream and olive mappings. The pictured yogurt was identified at higher resolution as **Yoplait Original**, not Great Value or Dannon.
+
+- Media Crema → Mayfield Whole Chocolate Milk, 1 pt (ID 44): [manufacturer](https://www.mayfielddairy.com/products/milk-and-cream/whole-chocolate-milk-plastic-pint/) lists milk first, followed by sweeteners/cocoa. USDA dairy variety: multi-ingredient perishable milk product.
+- Silk soy milk → Yoplait Original Strawberry Low Fat Yogurt, 6 oz (ID 45): [manufacturer](https://www.yoplait.com/products/original-single-serve-strawberry) lists cultured Grade A low-fat milk first and specifies refrigerated storage. USDA dairy variety: non-liquid yogurt.
+- Canned olives → good2grow 100% Apple Juice, 6 fl oz (ID 46): [manufacturer product family](https://good2grow.com/our-products/products/100-juice/) and [manufacturer-supplied retailer ingredient panel](https://foodlion.com/groceries/product/good2grow-100-apple-juice-6-oz-btl/185573) support 100% apple juice: water, apple juice concentrate, vitamin C and natural flavors. USDA produce variety: apple. The bottle is shelf-stable unopened even when sold chilled.
+
+All three are marked **In Store**, bringing the total to 19. Fresh IDs prevent former-product quantities and dates carrying over. Actual package labels must match the listed products. Count three intended retail sale units per variety, not servings or inner containers sold only as a pack.
+
+The 28-product plan retains seven distinct slots per category:
+
+| Category | Current distinct variety slots | Perishable plan |
+|---|---|---|
+| Dairy | Shelf-stable milk; powdered milk; non-liquid yogurt; shredded/grated cheese; plain perishable milk; multi-ingredient perishable milk; non-shredded cheese (provisional SKU) | Milk, chocolate milk, yogurt and qualifying refrigerated cheese |
+| Grains | Whole-grain pasta; non-whole-grain pasta; breakfast cereal; multi-ingredient wheat flour; wheat flour; rice grain; corn flour | None needed |
+| Protein | Shelf-stable tuna; shelf-stable chicken; shelf-stable beef; nuts/seeds; perishable multi-ingredient turkey; perishable multi-ingredient pork; perishable multi-ingredient chicken | Commercial cold sandwiches with the documented meat-first labels |
+| Vegetables or fruits | Corn; tomatoes; pineapple; apples; mushrooms; potatoes; bananas | Fresh bananas |
+
+Checked against [USDA stocking rules](https://www.fna.usda.gov/snap/retailer/stocking-standards-rule): seven varieties per category, three stocking units per variety, and one perishable variety in at least three categories continuously. These substitutions fit the published classifications. They do not resolve the existing American cheese SKU label check, demonstrate actual counts/condition, or constitute USDA authorization. The photo appears to show Kraft Singles while the selected entry remains Great Value; do not assume one SKU label verifies the other. USDA makes the official retailer determination.
