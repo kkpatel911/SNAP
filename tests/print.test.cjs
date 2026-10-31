@@ -47,10 +47,10 @@ test('print dialog waits for photo decoding, including a failed image',async()=>
 test('in-store badges appear on screen and print without treating photographed stock as a quantity count',()=>{
   const {ctx,document}=load();
   const data=vm.runInContext('products',ctx);
-  assert.equal(data.filter(p=>p.inStore).length,11);
-  assert.equal((document.getElementById('sections').innerHTML.match(/>✓ In Store<\/span>/g)||[]).length,11);
+  assert.equal(data.filter(p=>p.inStore).length,16);
+  assert.equal((document.getElementById('sections').innerHTML.match(/>✓ In Store<\/span>/g)||[]).length,16);
   assert.equal(data.find(p=>p.name==='Armour Original Vienna Sausage').qty,0);
   vm.runInContext('buildPrintSheet(true)',ctx);
-  assert.equal((document.getElementById('printSheet').innerHTML.match(/>✓ In Store<\/span>/g)||[]).length,11);
+  assert.equal((document.getElementById('printSheet').innerHTML.match(/>✓ In Store<\/span>/g)||[]).length,16);
   for(const cat of ['Dairy','Grains','Protein','Produce'])assert.equal(new Set(data.filter(p=>p.cat===cat).map(p=>p.variety)).size,7);
 });

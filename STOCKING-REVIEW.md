@@ -110,3 +110,5 @@ Canned chicken → Armour Original Vienna Sausage (ID 40); tomato paste → Camp
 Eleven current checklist products identified in the shelf photos are marked **In Store**: penne, cereal cups, Jif, instant potatoes, tuna, pineapple, DINTY MOORE canned beef stew, Vienna sausages, tomato soup, corn and mushroom soup. The badge appears on screen, in both print formats and in CSV. It records product presence, not a verified quantity, freshness check or certification. New IDs prevent counts and dates from the four replaced products carrying over.
 
 The plan retains seven varieties per category and the milk/sandwich/banana perishable categories. Remaining sandwiches and canned olives were not replaced.
+
+User confirmed Mayfield pint milk, Great Value American cheese singles, and all three Great American Deli sandwiches are **In Store**. These five entries are now marked, bringing the total to 16. Product presence does not resolve the cheese ingredient-label check or establish quantities.
