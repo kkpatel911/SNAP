@@ -48,20 +48,6 @@
     "verified": "2026-10-28",
     "local": "assets/products/08.jpg"
   },
-  "9": {
-    "image": "https://i5.walmartimages.com/seo/Great-Value-Spaghetti-16oz_9d73f340-4055-4b1d-89f4-64737450f334.491ce515e9904db0e49eeb751e856691.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
-    "product": "Regular spaghetti",
-    "product_url": "https://www.walmart.com/ip/10534115",
-    "verified": "2026-10-28",
-    "local": "assets/products/09.jpg"
-  },
-  "10": {
-    "image": "https://i5.walmartimages.com/seo/Great-Value-Toasted-O-s-Breakfast-Cereal-18-oz_32833ade-dedd-48a1-bbc9-4a32bfaba557.46fa4a7a3e8bb77ec07309635ddb4b3a.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
-    "product": "Breakfast cereal",
-    "product_url": "https://www.walmart.com/ip/17238466448",
-    "verified": "2026-10-28",
-    "local": "assets/products/10.jpg"
-  },
   "11": {
     "image": "https://i5.walmartimages.com/seo/Great-Value-Complete-Pancake-Waffle-Mix-Extra-Fluffy-Original-32-oz_aa4d8d1c-d456-4a8a-931e-8ada730d23cc.12a6dd1e51047e83707e3f85fc7033a5.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
     "product": "Pancake mix",
@@ -111,13 +97,6 @@
     "verified": "2026-10-28",
     "local": "assets/products/17.jpg"
   },
-  "18": {
-    "image": "https://i5.walmartimages.com/seo/Great-Value-Creamy-Peanut-Butter-18-oz-Jar_b1de5b13-ea36-4195-a48f-df80e9ad32d3.866d0f8269899d9c1ec4bd0a6eb0947c.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
-    "product": "Peanut butter",
-    "product_url": "https://www.walmart.com/ip/10315475",
-    "verified": "2026-10-28",
-    "local": "assets/products/18.jpg"
-  },
   "22": {
     "image": "https://i5.walmartimages.com/seo/Great-Value-Canned-Whole-Green-Beans-Gluten-Free-14-5-oz_e8cfd86c-bba5-4481-a8e2-4414d89b19fc.8adb9905a92dd3de28ccba6789cb0eec.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
     "product": "Canned green beans",
@@ -152,13 +131,6 @@
     "product_url": "https://www.walmart.com/ip/12927454291",
     "verified": "2026-10-28",
     "local": "assets/products/26.jpg"
-  },
-  "27": {
-    "image": "https://i5.walmartimages.com/seo/Great-Value-Dried-Apricots-6-oz_335f3d3c-37a1-48b2-8d81-8bf81cba6a0d.00009be02be03f6da89b6aa0b4f840dd.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
-    "product": "Dried apricots",
-    "product_url": "https://www.walmart.com/ip/10452488",
-    "verified": "2026-10-28",
-    "local": "assets/products/27.jpg"
   },
   "31": {
     "image": "https://i5.walmartimages.com/seo/Fresh-Banana-Each_5939a6fa-a0d6-431c-88c6-b4f21608e4be.f7cd0cc487761d74c69b7731493c1581.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
@@ -199,5 +171,37 @@
     "product": "Chicken Salad Sandwich — Great American Deli",
     "product_url": "https://www.greatamericandeli.com/products/chicken-salad",
     "verified": "2026-10-28"
+  },
+  "36": {
+    "image": "https://i5.walmartimages.com/seo/Great-Value-Penne-Pasta-16-oz-Box-Shelf-Stable_44255c22-1361-4b4b-9a70-c7a87bd101b6.861d9b1f2947a2832aeb17a37d85ba31.jpeg?odnBg=FFFFFF&odnHeight=576&odnWidth=576",
+    "source_type": "retailer",
+    "product": "Great Value Penne Pasta",
+    "product_url": "https://www.walmart.com/ip/10534084",
+    "verified": "2026-10-31",
+    "local": "assets/products/36.jpg"
+  },
+  "37": {
+    "image": "https://images.heb.com/is/image/HEBGrocery/001411687-1?fit=constrain&hei=1400&jpegSize=150&qlt=75&v=1",
+    "source_type": "retailer",
+    "product": "Kellogg’s Frosted Flakes Cereal Cup",
+    "product_url": "https://www.heb.com/product-detail/kellogg-s-frosted-flakes-cereal-cup/1411687",
+    "verified": "2026-10-31",
+    "local": "assets/products/37.jpg"
+  },
+  "38": {
+    "image": "https://i5.walmartimages.com/seo/Jif-Creamy-Peanut-Butter-16-Ounce-Jar_d789ab3e-f8b8-4391-869a-32e1a059667e.876f99dfc9f7c529d86bc6af3918ea85.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "source_type": "retailer",
+    "product": "Jif Creamy Peanut Butter",
+    "product_url": "https://www.walmart.com/ip/777839120",
+    "verified": "2026-10-31",
+    "local": "assets/products/38.jpg"
+  },
+  "39": {
+    "image": "https://i5.walmartimages.com/seo/Great-Value-Instant-Mashed-Potatoes-9-oz_c8b04409-8754-4848-b9a5-d8f0c2f7971c.7023e1f0027654170b5aba5d22f709e5.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+    "source_type": "retailer",
+    "product": "Great Value Instant Mashed Potatoes",
+    "product_url": "https://www.walmart.com/ip/22734176",
+    "verified": "2026-10-31",
+    "local": "assets/products/39.jpg"
   }
 }
